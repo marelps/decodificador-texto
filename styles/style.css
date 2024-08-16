@@ -1,32 +1,77 @@
-/* :root {
-    --cor-primaria: #171717;
-    --cor-secundaria: #858585;
-    --cor-terciaria: #DA0037;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --cor-primaria: #E5E5E5;
+    --cor-secundaria: #0A3871;
+    --cor-terciaria: #fff;
     --cor-hover: #EDEDED;
 
-    --fonte-primaria: "Inconsolata", monospace;
-    --fonte-secundaria: "Noto Sans", sans-serif;
-} */
+    --fonte-primaria: "Inter", sans-serif;
+    --fonte-secundaria: "Roboto", sans-serif;
+}
 
 *{
     margin: 0;
     padding: 0;
 }
+
 body{
-    /* height: 100vh; */
+    height: 100vh;
     box-sizing: border-box ;
-    /* background-color: var(--cor-primaria);
-    color: var(--cor-secundaria); */
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 5%;
+}
+
+.cabecalho_logo{
+    display:flex;
+    gap: 80px;
+}
+
+.secao{
+    padding: 5% 25%;
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    gap: 82px;
+}
+
+.secao-texto{
+    font-family: var(--fonte-primaria);
 }
 
 
+.secao-texto-funcao-criptografia {
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    /* border: 2px solid var(--cor-terciaria); */
+    width: auto;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+}
+
+.secao-mensagem{
+    background-color: var(--cor-terciaria);
+}
 
 
 
 .rodape {
     padding: 24px;
     color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
