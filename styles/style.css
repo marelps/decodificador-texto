@@ -1,0 +1,34 @@
+/* :root {
+    --cor-primaria: #171717;
+    --cor-secundaria: #858585;
+    --cor-terciaria: #DA0037;
+    --cor-hover: #EDEDED;
+
+    --fonte-primaria: "Inconsolata", monospace;
+    --fonte-secundaria: "Noto Sans", sans-serif;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* height: 100vh; */
+    box-sizing: border-box ;
+    /* background-color: var(--cor-primaria);
+    color: var(--cor-secundaria); */
+}
+
+
+
+
+
+.rodape {
+    padding: 24px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
