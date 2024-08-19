@@ -6,7 +6,7 @@
     <title>Desafio ONE - Descriptografia de textos</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-    <script src="script/script.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -15,8 +15,12 @@
 
     <main class="secao">
         <section class="secao-texto">
-            <h1>Digite seu texto</h1>
-            <img src="assets/exclamacao.png" alt="Exclamação"> <p>Apenas letras maiúsculas e sem acento.</p>
+            <textarea name="secao-text-textarea" id="secao-text-textarea" placeholder="Digite seu texto"></textarea>
+
+            <div class="secao-texto-aviso">
+                <img src="assets/exclamacao.png" alt="Exclamação"> <p>Apenas letras maiúsculas e sem acento.</p>
+            </div>
+
             <div class="secao-texto-funcao">
                 <a href="" class="secao-texto-funcao-criptografia">Criptografar</a>
                 <a href="" class="secao-texto-funcao-criptografia" disabled>Descriptografar</a>
@@ -27,6 +31,8 @@
             <img src="assets/ilustracao.png" alt="Ilustração procurando algo">
             <h1>Nenhuma mensagem encontrada</h1>
             <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+
+            <a href="" class="secao-texto-funcao-criptografia">Copiar</a>
         </section>
     </main>
 
