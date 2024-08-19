@@ -5,6 +5,7 @@
     --cor-primaria: #E5E5E5;
     --cor-secundaria: #0A3871;
     --cor-terciaria: #fff;
+    --cor--quartenaria: #343A40;
     --cor-hover: #EDEDED;
 
     --fonte-primaria: "Inter", sans-serif;
@@ -17,19 +18,12 @@
 }
 
 body{
-    height: 100vh;
-    box-sizing: border-box ;
+    box-sizing: border-box;
     background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
 }
 
 .cabecalho{
     padding: 2% 0% 0% 5%;
-}
-
-.cabecalho_logo{
-    display:flex;
-    gap: 80px;
 }
 
 .secao{
@@ -37,43 +31,59 @@ body{
     display: flex;
     align-items: center;
     justify-items: space-between;
-    gap: 82px;
+    gap: 40px;
 }
 
 .secao-texto{
     font-family: var(--fonte-primaria);
+    width: 836px;
+    background-color: #343A40;
+    color: var(--cor-secundaria);
 }
 
 
 .secao-texto-funcao-criptografia {
     background-color: var(--cor-secundaria);
+    border: 2px solid var(--cor-secundaria);
     display: flex;
-    justify-content:center;
-    gap: 30px;
-    /* border: 2px solid var(--cor-terciaria); */
-    width: auto;
-    text-align: center;
-    border-radius: 8px;
-    font-size: 1.5rem;
-    font-weight: 600;
+    justify-content: center;
+    width: 328px;
+    border-radius: 24px;
     padding: 21.5px 0;
-    text-decoration: none;
-    color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-terciaria);
+}
+
+a[disabled] {
+    pointer-events: none;
+    background-color: #D8DFE8;
+    color: var(--cor-secundaria);
+    text-decoration: none;
 }
 
 .secao-mensagem{
     background-color: var(--cor-terciaria);
+    padding: 50px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor--quartenaria);
+    text-align: center;
+    width: 400px;
+    height: 944px;
+    border-radius: 32px;
 }
 
 
 
 .rodape {
-    padding: 24px;
+    padding: 10px;
     color: var(--cor-primaria);
     background-color: var(--cor-secundaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
 }
