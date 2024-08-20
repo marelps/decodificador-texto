@@ -4,9 +4,8 @@
 :root {
     --cor-primaria: #E5E5E5;
     --cor-secundaria: #0A3871;
-    --cor-terciaria: #fff;
+    --cor-terciaria: #ffffff;
     --cor--quartenaria: #343A40;
-    --cor-hover: #EDEDED;
 
     --fonte-primaria: "Inter", sans-serif;
     --fonte-secundaria: "Roboto", sans-serif;
@@ -23,114 +22,109 @@ body{
 }
 
 .cabecalho{
-    display: flex;
-    padding: 4.25rem 4.125rem;
     position: absolute;
+    padding: 4.25rem 4.125rem;
     width: 10%;
 }
 
-.cabecalho_logo{
-    max-height: 3.125rem;
-}
+    .cabecalho_logo{
+        max-height: 3.125rem;
+    }
 
 .secao{
-    padding: 5% 25%;
     display: flex;
-    align-items: flex-end;
+    flex-wrap: nowrap;
+    align-items: flex-start;
     justify-content: center;
+    padding: 5% 25%;
     gap: 40px;
 }
 
-.secao-texto{
-    font-family: var(--fonte-primaria);
-    width: 836px;
-    height: 900px;
-    /* background-color: #343A40; */
-}
+    .secao-texto{
+        font-family: var(--fonte-primaria);
+        width: 900px;
+        height: 900px;
+    }
 
-textarea{
-    border: none;
-    padding: 0;
-    margin: 0;
-    outline: none;
-    resize: none; 
-    background:transparent;
-    width: 100%;
-    height: 50%;
-}
+        textarea{
+            border: none;
+            padding: 0;
+            margin: 0;
+            outline: none;
+            resize: none; 
+            background:transparent;
+            width: 100%;
+            height: 50%;
+        }
 
-textarea, textarea::placeholder{
-    font-family: var(--fonte-primaria);
-    font-size: 32px;
-    color: #0A3871;
-    text-decoration: none;
-}
+        textarea, textarea::placeholder{
+            font-family: var(--fonte-primaria);
+            font-size: 32px;
+            color: #0A3871;
+            text-decoration: none;
+        }
 
-.secao-texto-aviso{
-    display: flex;
-    justify-content: left;
-    gap: 8px;
-    color: var(--cor--quartenaria);
-    margin-bottom: 30px;
-}
-.secao-texto-aviso img{
-    width: 16px;
-    height: 16px;
-}
+    .secao-texto-aviso{
+        display: flex;
+        justify-content: left;
+        gap: 8px;
+        color: var(--cor--quartenaria);
+        margin-bottom: 15px;
+    }
+        .secao-texto-aviso img{
+            width: 16px;
+            height: 16px;
+        }
 
+    .secao-texto-funcao{
+        display: flex;
+        gap: 24px;
+    }
 
-.secao-texto-funcao{
-    display: flex;
-    gap: 24px;
-}
+        .secao-texto-funcao-criptografia {
+            color: var(--cor-terciaria);
+            background-color: var(--cor-secundaria);
+            border: 2px solid var(--cor-secundaria);
+            display: flex;
+            justify-content: center;
+            width: 328px;
+            border-radius: 24px;
+            padding: 21.5px 0;
+            font-family: var(--fonte-secundaria);
+            text-align: center;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 400;
+        }
 
-.secao-texto-funcao-criptografia {
-    background-color: var(--cor-secundaria);
-    border: 2px solid var(--cor-secundaria);
-    display: flex;
-    justify-content: center;
-    width: 328px;
-    border-radius: 24px;
-    padding: 21.5px 0;
-    font-family: var(--fonte-secundaria);
-    text-align: center;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 400;
-    color: var(--cor-terciaria);
-}
+            a[disabled] {
+                pointer-events: none;
+                background-color: transparent;
+                color: var(--cor-secundaria);
+                text-decoration: none;
+            }
 
-a[disabled] {
-    pointer-events: none;
-    background-color: #D8DFE8;
-    color: var(--cor-secundaria);
-    text-decoration: none;
-}
+    .secao-mensagem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 400px;
+        height: 700px;
+        border-radius: 32px;
+        background-color: var(--cor-terciaria);
+        color: var(--cor--quartenaria);
+        padding: 50px;
+        font-family: var(--fonte-primaria);
+    }
 
-.secao-mensagem{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: var(--cor-terciaria);
-    padding: 50px;
-    font-family: var(--fonte-primaria);
-    color: var(--cor--quartenaria);
-    text-align: center;
-    width: 400px;
-    height: 700px;
-    border-radius: 32px;
-}
-
-.secao-mensagem a{
-    margin-top: 50px;
-}
-
-
+        .secao-mensagem a{
+            margin-top: 50px;
+        }
 
 .rodape {
     padding: 10px;
-    color: var(--cor-primaria);
-    background-color: var(--cor-secundaria);
+    color: var(--cor-secundaria); 
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1rem;
