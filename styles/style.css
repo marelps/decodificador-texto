@@ -118,8 +118,19 @@ body{
         font-family: var(--fonte-primaria);
     }
 
+        .secao-mensagem-texto{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            padding: 25px;
+        }
+
         .secao-mensagem a{
             margin-top: 50px;
+        }
+
+        .secao-mensagem .secao-texto-funcao-criptografia{
+            visibility: hidden;
         }
 
 .rodape {

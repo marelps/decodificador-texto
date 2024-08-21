@@ -3,7 +3,3 @@ document.getElementById("meuLink").addEventListener("click", function(event){
       event.preventDefault(); // Evita a ação padrão do link
     }
   });
-
-
-
-  const TextArea = document.querySelector("")
