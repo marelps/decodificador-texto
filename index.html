@@ -6,7 +6,6 @@
     <title>Desafio ONE - Descriptografia de textos</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-    <script src="js/script.js"></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -15,15 +14,15 @@
 
     <main class="secao">
         <section class="secao-texto">
-            <textarea name="secao-text-textarea" id="secao-text-textarea" placeholder="Digite seu texto"></textarea>
+            <textarea name="secao-text-textarea" class="secao-text-textarea" placeholder="Digite seu texto"></textarea>
 
             <div class="secao-texto-aviso">
                 <img src="assets/exclamacao.png" alt="Exclamação"> <p>Apenas letras maiúsculas e sem acento.</p>
             </div>
 
             <div class="secao-texto-funcao">
-                <a href="" class="secao-texto-funcao-criptografia">Criptografar</a>
-                <a href="" class="secao-texto-funcao-criptografia" disabled>Descriptografar</a>
+                <button class="secao-texto-funcao-criptografia" onclick="btnEncriptar()">Criptografar</button>
+                <button class="secao-texto-funcao-criptografia" disabled>Descriptografar</button>
             </div>
         </section>
 
@@ -33,15 +32,19 @@
                 <h1>Nenhuma mensagem encontrada</h1>
                 <p>Digite um texto que você deseja criptografar ou descriptografar</p>
             </div>
+            <div class="secao-mensagem-texto-script">
 
-            <a href="" class="secao-texto-funcao-criptografia" disabled>Copiar</a>
+                <textarea class="secao-mensagem-texto-script">Teste de textarea</textarea>
+
+                <button href="" class="secao-texto-funcao-criptografia" disabled>Copiar</button>
+
+            </div> 
         </section>
     </main>
 
     <footer class="rodape">
         <p>Desenvolvido por Vitória Garrucho ❤</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
-
-

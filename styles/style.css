@@ -57,7 +57,7 @@ body{
             height: 50%;
         }
 
-        textarea, textarea::placeholder{
+        .secao-texto textarea, .secao-texto textarea::placeholder{
             font-family: var(--fonte-primaria);
             font-size: 32px;
             color: #0A3871;
@@ -97,7 +97,7 @@ body{
             font-weight: 400;
         }
 
-            a[disabled] {
+            button[disabled] {
                 pointer-events: none;
                 background-color: transparent;
                 color: var(--cor-secundaria);
@@ -129,8 +129,16 @@ body{
             margin-top: 50px;
         }
 
-        .secao-mensagem .secao-texto-funcao-criptografia{
+        /* .secao-mensagem .secao-texto-funcao-criptografia{
             visibility: hidden;
+        } */
+
+        .secao-mensagem-texto-script textarea{
+            text-align:justify;
+            font-family: var(--fonte-primaria);
+            font-size: 32px;
+            color: #495057;
+            text-decoration: none;
         }
 
 .rodape {
