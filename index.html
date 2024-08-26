@@ -9,36 +9,31 @@
 </head>
 <body>
     <header class="cabecalho">
-        <img src="assets/alura.png" alt="Logo Alura" class="cabecalho_logo">
+        <img src="assets/alura.png" alt="Logo Alura">
     </header>
 
     <main class="secao">
         <section class="secao-texto">
-            <textarea name="secao-text-textarea" class="secao-text-textarea" placeholder="Digite seu texto"></textarea>
+            <input class="secao-text-textarea" id="texto-original" type="text" placeholder="Digite seu texto">
 
             <div class="secao-texto-aviso">
                 <img src="assets/exclamacao.png" alt="Exclamação"> <p>Apenas letras maiúsculas e sem acento.</p>
             </div>
 
             <div class="secao-texto-funcao">
-                <button class="secao-texto-funcao-criptografia" onclick="btnEncriptar()">Criptografar</button>
-                <button class="secao-texto-funcao-criptografia" disabled>Descriptografar</button>
+                <button onclick="esconder('conteudo')" id="criptografar" class="secao-texto-funcao-criptografia">Criptografar</button>
+                <button onclick="esconder('conteudo')" id="descriptografar" class="secao-texto-funcao-criptografia" >Descriptografar</button>
             </div>
-        </section>
+        </section>.
 
         <section class="secao-mensagem">
-            <img src="assets/ilustracao.png" alt="Ilustração procurando algo">
-            <div class="secao-mensagem-texto">
+            <textarea name="" id="resultado" class="secao-mensagem-texto-script"></textarea>
+            <div class="secao-mensagem-texto" id="conteudo">
+                <img src="assets/ilustracao.png" alt="Ilustração procurando algo">
                 <h1>Nenhuma mensagem encontrada</h1>
                 <p>Digite um texto que você deseja criptografar ou descriptografar</p>
             </div>
-            <div class="secao-mensagem-texto-script">
-
-                <textarea class="secao-mensagem-texto-script">Teste de textarea</textarea>
-
-                <button href="" class="secao-texto-funcao-criptografia" disabled>Copiar</button>
-
-            </div> 
+                <button onclick="" id="btn_copiar" class="secao-texto-funcao-criptografia">Copiar</button>
         </section>
     </main>
 
