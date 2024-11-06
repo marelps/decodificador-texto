@@ -1,9 +1,9 @@
 <p align="center">
-  <img alt="Repository size" src="https://img.shields.io/github/directory-file-count/marelps/alurachallenge?style=flat-square">
+  <img alt="Repository size" src="https://img.shields.io/github/directory-file-count/marelps/decodificador-texto?style=flat-square">
   <a href="https://twitter.com/piterparquinho">
     <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fpiterparquinho">
   </a>
-  <img alt="Github last commit" src="https://img.shields.io/github/last-commit/marelps/alurachallenge?style=flat-square">
+  <img alt="Github last commit" src="https://img.shields.io/github/last-commit/marelps/decodificador-texto?style=flat-square">
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
   <a href="">
     <img alt="Feito por Vitória" src="https://img.shields.io/badge/feito%20por-Vitória-%237519C1">
@@ -11,7 +11,7 @@
 
 # Challenge ONE Decodificador de Texto - Turma 7
 <h4 align="center"> 
-	🚧🚜 Projeto em andamento 🚜🚧
+	✅ Projeto Concluído ✅
 </h4>
 
 <p align="center">
@@ -25,6 +25,10 @@
 ## Objetivo
 ### Objetivo do projeto
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam iure animi amet! Officia voluptatem, nam a inventore quasi minima non dolores voluptas ipsa quis quibusdam obcaecati. Cumque iure corrupti ipsa.
+
+<img src="assets/descript1.png">
+<img src="assets/descript2.png">
+<img src="assets/descript3.png">
 
 
  ## Instalação
